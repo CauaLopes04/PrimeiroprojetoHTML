@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro projeto</title>
+</head>
+<body>
+    <h1 id="back" style="color: green;">Tags do html</h1>
+    <hr>
+<ul>
+    <a href="#inicio"><li>O que é uma tag?</li></a>
+    <a href="#titulos"><li>Titulos</li></a>
+    <a href="#paragrafos"><li>Paragrafos</li></a>
+    <a href="#links"><li>Links</li></a>
+</ul>
+
+<h2 id="inicio">O que é uma tag?</h2>
+<p>
+    Uma tag em <strong>HTML</strong> é um elemento usado para definir a estrutura e o conteúdo de uma página da web. As tags são utilizadas para
+    marcar partes específicas do conteúdo, como texto, imagens, links, formulários, entre outros. Elas são delimitadas por caracteres 
+    de menor que (<) e maior que (>), e muitas vezes vêm em pares, com uma tag de abertura e uma tag de fechamento, envolvendo o conteúdo que elas estão marcando.
+</p>
+
+<h2 id="Titulos">Titulos</h2>
+<p>
+    O texto dentro da tag title será exibido na barra de título do navegador quando a página for carregada e também será usado
+    como o título da página nos marcadores dos usuários e nos resultados de pesquisa.
+</p>
+
+<h2 id="paragrafos">Paragrafos</h2>
+<p>
+As tags de parágrafo em HTML são usadas para definir blocos de texto que são considerados parágrafos. Elas são representadas pela tag p 
+e são usadas para delimitar o texto que deve ser tratado como um parágrafo pelo navegador.
+</p>
+
+<h2 id="links">Links</h2>
+<p>
+    As tags de link em HTML são usadas para criar hiperlinks, permitindo que os usuários naveguem de uma página da web para outra ou a diferentes partes da mesma página. A tag de link mais comum é a tag a,
+    que é abreviação de "anchor" (âncora em inglês).
+</p>
+<a href="#back"><small>voltar</small></a>
+
+</body>
+</html>
